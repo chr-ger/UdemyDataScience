@@ -1,7 +1,6 @@
 # Set the default behavior for all files.
-* text=crlf
+* text=auto eol=lf
 
-# Normalized and converts to
-# native line endings on checkout.
+# Normalized and converts to native line endings on checkout.
 *.py text
-*.ipynb text
+*.pyx text
