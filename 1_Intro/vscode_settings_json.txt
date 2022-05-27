@@ -1,0 +1,74 @@
+{
+    // Editor settings
+    "editor.tabSize": 4,
+    "editor.fontSize": 21,
+    "editor.rulers": [80, 120],
+    "editor.renderWhitespace": "trailing",
+    "editor.suggestSelection": "first",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "markdown.preview.fontSize": 19,
+    "terminal.integrated.fontSize": 20,
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "debug.onTaskErrors": "debugAnyway",
+    "debug.javascript.suggestPrettyPrinting": false,
+    // Explorer settings
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    // Files settings
+    "files.autoSave": "onFocusChange",
+    "files.associations": {
+        "*.pyx": "python",
+        ".clang*": "yaml"
+    },
+    // Workbench settings
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    // Python settings
+    "python.linting.enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.formatting.provider": "autopep8",
+    "python.languageServer": "Pylance",
+    "python.showStartPage": false,
+    "autoDocstring.generateDocstringOnEnter": true,
+    "jupyter.askForKernelRestart": false,
+    "pythonTestExplorer.testFramework": "pytest",
+    "autoDocstring.quoteStyle": "'''",
+    "jupyter.interactiveWindowMode": "perFile",
+    // Git settings
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    // IntelliSense AI Extension
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    // Formatting tools
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.tabWidth": 4,
+    "prettier.singleQuote": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.trailingComma": "all",
+    "prettier.useEditorConfig": true,
+    "prettier.bracketSpacing": false,
+    "[python]": {
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "[yaml]": {
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    // Telemetry settings
+    "partialDiff.enableTelemetry": false,
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "redhat.telemetry.enabled": false,
+    // Other extensions
+    "formatContextMenu.closeAfterSave": true,
+    "git.ignoreMissingGitWarning": true
+}
